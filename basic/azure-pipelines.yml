@@ -3,8 +3,14 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
+# specific branch build
 trigger:
-- main
+  branches:
+    include:
+    - main
+  paths:
+    include:
+    - basic
 
 pool: tungbq
 
