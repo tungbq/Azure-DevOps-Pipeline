@@ -6,6 +6,11 @@
 trigger:
 - main
 
+# To create a new Linux agent
+## 1. Create a new Ubuntu VM on Azure portal: https://portal.azure.com/#create/Microsoft.VirtualMachine-ARM 
+## 2. Create new agent pool (or you can use the default): https://dev.azure.com/tungbq1995/starting/_settings/agentqueues
+## 3. Connect the VM to agent pool: https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/linux-agent?view=azure-devops
+# Tested OK on ubuntu-22.04
 pool: tungbq
 
 steps:
