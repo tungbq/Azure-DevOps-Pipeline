@@ -10,9 +10,9 @@ pool: tungbq
 
 steps:
 - script: echo This is demo for multiple pipeline in single repo approach!
-  displayName: 'Hello from another pipeline :)'
+  displayName: 'Hello from another pipeline'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script from other pipeline :)'
+  displayName: 'Run a multi-line script from other pipeline'
