@@ -1,0 +1,22 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+jobs:
+- job: Job1
+  pool:
+    tungbq
+  steps:
+  - script: echo "hello from job 1"
+    displayName: 'Print Hello in Job1'
+
+- job: Job2
+  pool:
+    tungbq
+  steps:
+  - script: echo "hello from job 2"
+    displayName: 'Print Hello in Job2'
